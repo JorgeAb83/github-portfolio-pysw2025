@@ -1,0 +1,89 @@
+*{
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+a,a:link{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav.navbar{
+    background-color: #000000;
+    z-index: 100;
+}
+.nav-link:hover{
+    background-color: rgb(52, 127, 69);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.navbar-toogler{
+    color: #fff !important;
+    border: none !important;
+}
+.icono{
+    width: 8rem !important;
+}
+.container a{
+    text-decoration: none;
+}
+p.logo{
+    font-family: Tangerine;
+    color: white;
+    font-size: 33px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-style: italic;
+}
+p.logo:hover{
+    font-size: 40px;
+    text-shadow: 
+        0 0 5px rgba(0, 178, 255, 1),
+        0 0 10px rgba(0, 178, 255, 1),
+        0 0 20px rgba(0, 178, 255, 1),
+        0 0 40px rgba(38, 104, 127, 1),
+        0 0 80px rgba(38, 104, 127, 1),
+        0 0 90px rgba(38, 104, 127, 1),
+        0 0 100px rgba(38, 104, 127, 1),
+        0 0 140px rgba(38, 104, 127, 1),
+        0 0 180px rgba(38, 104, 127, 1);
+    cursor: pointer;
+}
+.bg-verde{
+    background-color: rgb(120, 198, 138);
+}
+#jumbotron{
+    width: 100%;
+    height: 100Vh !important;
+    background-color: rgb(120, 198, 138);
+}
+#jumbotron .container{
+    height: 100%; 
+}
+#jumbotron h6{
+    letter-spacing: 2px;
+}
+#jumbotron .sosmed a{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel-item::before{
+    contain: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(42, 42, 42);
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(52, 127, 69);
+    color: white;
+}
