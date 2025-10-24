@@ -57,6 +57,10 @@ let options = { /*Crea un objeto de opción vacío. */
 };
 
 let typed = new Typed('.typed', options);
+
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
 /*Esa línea invocará el paquete Typed.js y creará subtítulos animados. En concreto:
 let typed = new Typed('.typed', options);
     Crea una nueva instancia de Typed y la almacena en la constante typed.

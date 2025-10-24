@@ -87,9 +87,15 @@ footer{
     background-color: rgb(52, 127, 69);
     color: white;
 }
-
+body{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 .user-image {
     max-width: 200px;
+    pointer-events: none;
 }
 
 @media (max-width: 768px) {
