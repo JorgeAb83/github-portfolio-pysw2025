@@ -87,3 +87,18 @@ footer{
     background-color: rgb(52, 127, 69);
     color: white;
 }
+
+.user-image {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    p.logo {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    p.logo:hover {
+        font-size: 28px;
+    }
+}
